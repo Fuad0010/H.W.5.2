@@ -17,12 +17,12 @@ namespace H.W._5._2
             int[] array = Changer(ref arr);
             foreach (var item in arr)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"Num: {item}");
             }
 
 
         }
-            static int[] Changer(ref int[] Chan)
+            static int[] Changer(ref int[] Chan )
         {
             for (int i = 0; i < Chan.Length; i++)
             {
